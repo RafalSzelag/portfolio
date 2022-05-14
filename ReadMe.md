@@ -7,6 +7,7 @@ My name is Rafał Szeląg. I am master of law and barrister. I graduated from Un
   - [Jira](https://www.atlassian.com/software/jira0)
   - [Trello](https://trello.com/)
   - [Selenium IDE](https://chrome.google.com/webstore/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd)
+  - [DBeaver](https://dbeaver.io/)
   - Github
 # Webinars
   - Q&A - Jak testujemy w Netguru
