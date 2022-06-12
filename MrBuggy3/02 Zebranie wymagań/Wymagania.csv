@@ -1,0 +1,43 @@
+R,Wymaganie w oparciu o specyfikację
+1,"MrBuggy 3 ma być aplikacją przenośną, która ma być dostarczona w postaci archiwum “zip”. Rozpakowane archiwum musi zawierać plik wykonawczy, który uruchamia aplikację oraz wszystkie niezbędne biblioteki i zasoby."
+2,W trybie członka drużyny możliwość raportowania defektów jest zablokowana
+3,Aplikacja kliencka musi pracować w jednym z trzech trybów. Tryb pracy należy wybrać w trakcie logowania do aplikacji
+4,Nie można zmienić trybu pracy w trakcie działania aplikacji
+5,Okno aplikacji powinno mieścić się w całości na ekranie monitora o rozdzielczości 1024x768
+6,Wersja demonstracyjna posiada tylko jedno zadanie testowe
+7,Wśród zadań zamieszczonych w wersji końcowej nie może się znaleźć zadanie z wersji demonstracyjnej
+8,Możliwość ręcznego importu oraz eksportu danych
+9,aplikacja ma za zadanie generować dziennik zdarzeń części klienckiej
+10,W aplikacji dostępnych ma być nie mniej niż 15 zadań w części klienckiej
+11,hasło musi składać się z co najmniej 8 znaków
+12,aplikacja napisana w języku polskim 
+13,W każdym zdaniu ma być conajmnej jeden defekt
+14,Defekty te mogą należeć do grup:  defektów funkcjonalnych  defektów bezpieczeństwa  defektów użyteczności
+15,Aplikacja nie posiada generatora zadań. Wszystkie zadania mają zostać zaimplementowane w aplikacji
+16,Umożliwienie użytkownikom aplikacji klienckiej poszukiwania jednego defektu w każdym ze stworzonych zadań oraz ich raportowanie
+17,Wyświetlenie listy zadań wraz z przyciskami nawigacyjnymi.
+18,"Rozróżnienie statusu wykonania zadania za pomocą kolorów (zadanie rozwiązane, aktualnie wyświetlane oraz nie rozwiązane)"
+19,"Tworzenie automatycznie kopii zapasowej po kliknięciu w przycisk ""zaraportuj"", w formie pliku"
+20,Okno aplikacji powinno dzielić się na dwie części - okno “Zadania” oraz “Menu boczne” ułożone po prawej stronie.
+21,"Przyciski nawigacyjne - “Następne” i “Poprzednie” umożliwiają przeniesienie
+się do odpowiednio bieżącego, następnego i poprzedniego zadania."
+22,Część kliencka: Windows 7;  Windows 8/8.1  Część serwerowa:  Windows 7
+23,Kopia zapasowa ma być tworzona po każdorazowym kliknięciu w przycisk “Znalazłem defekt”.
+24,konto musi zostać zablokowane po 3 krotnym wpisaniu błędnego hasła
+25,"przełączanie pomiędzy zadaniami nie może być dłuższe niż 1 sekunda
+"
+26,aplikacja kliencka po uruchomieniu nie może zajmować więcej niż 100MB pamięci operacyjnej komputera
+27,wielkość pliku z kopią zapasową aplikacji klienckiej nie może przekraczać 2MB
+28,Okno “Zadania” - wyświetlane jest w nim zadanie w którym użytkownik musi odnaleźć defekty.
+29,W przypadku utraty połączenia sieciowego użytkownik powinien mieć dalszą możliwość wykonywania wszystkich czynności w aplikacji.
+30,Kolejność zadań wyświetlanych w części klienckiej powinna być losowa
+31,"Pole “Czas” - wyświetla czas do zakończenia rundy (format: gg:mm:ss; godzina, minuta, sekunda, milisekunda)"
+32,Pole “Nr zadania” - podaje numer zadania wyświetlonego w oknie “Zadania”.
+33,Pole “Opis problemu” - zawiera ogólną informację na temat zadania wyświetlonego w polu “Zadania” wraz z ilością punktów za dane zadanie
+34,"Pole “Lista zadań” - umożliwia nawigację pomiędzy zadaniami. Zadania bez udzielonej odpowiedzi, z udzieloną odpowiedzią i aktualnie wyświetlone muszą się odznaczać innym kolorem."
+35,"Przycisk “Zaraportuj defekt” - pozwala na zaraportowanie defektu aktualnie
+wyświetlanego w oknie “Zadania”. Każdorazowo po kliknięciu tego przycisku
+tworzona jest kopia zapasowa z aktualnym stanem aplikacji (w celu
+zachowania postępu użytkownika w przypadku awarii) oraz wysyłany jest
+raport defektu do części serwerowej aplikacji."
+36,Przycisk “Zakończ” - zakończenie pracy nad wszystkimi zadaniami i wysłanie odpowiedzi do oceny. Nie da się cofnąć tej czynności. można ją wykonać tylko raz. Aby uniknąć pomyłek użytkownik musi potwierdzić chęć wykonania tej czynności. Po wciśnięciu przycisku “Zakończ” wszystkie dane dotyczące użytkownika oraz rozwiązanych przez niego zadań testowych eksportowane są do pliku binarnego. Plik ten może być importowany do części serwerowej w przypadku problemów z połączeniem sieciowym.
