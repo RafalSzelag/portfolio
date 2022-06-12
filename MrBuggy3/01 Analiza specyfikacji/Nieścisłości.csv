@@ -1,0 +1,39 @@
+,"Miejsce w specyfikacji, gdzie jest błąd",Co jest błędem,Jak powinno być
+,"alternatywa dla Lorem ipsum - nowomowa, albo pan tadeusz. Widzę że strona z której korzystałam bodajże została shakowana bo nie ma treści",Wymagane są cztery wersje aplikacji klienckiej - w treści wymienione są tylko trzy,trzy
+,10,"Pole “Czas” - wyświetla czas do zakończenia rundy (format: gg:mm:ss; godzina, minuta, sekunda, milisekunda) - brak milisekund ",gg:mm:ss
+,"10,11","szablon “Znalazłem defekt” - w opisie jest ""Zaraportuj defekt""",Zaraportuj defekt
+,"5,13","Instalator aplikacji - program, który zainstaluje aplikację MrBuggy 3 w środowisku docelowym.....która ma być dostarczona w postaci archiwum “zip”. Rozpakowane archiwum musi zawierać plik wykonawczy,---- nieścisłość instalator czy wykonawczy??",zip
+,7.2.,"login musi składać się z 2 do 8 znaków i zawierać przynajmniej jedną małą literę, jedną wielką literę, jedną cyfrę i jeden znak specjalny – wymagania są 4, a hasło może składać od 2 znaków. ",4-8
+,7,Język programowania oraz baza danych urzyta podczas tworzenia aplikacji nie są zdefiniowane. {błąd ortograficzny},
+,8,W każdym zdaniu ma być dokładnie jeden defekt. {błąd ortograficzny},
+,8,"defektów funkcjonalnych
+ defektów bezpieczeństwa
+ defektów użyteczności {defekty użyteczności to defekty funkcjonalne}",
+,7,"Język programowania oraz baza danych urzyta podczas tworzenia aplikacji nie są zdefiniowane/Aplikacja serwerowa ma zostać stworzona przy
+wykorzystaniu języka Java7 - sprzeczne informacje ",Java 7
+,11,okno - brak ikonki MrBuggy3 (?),napis = ikona
+,"10,11","Pole “Opis problemu” - zawiera ogólną informację na temat zadania wyświetlonego w polu “Zadania” wraz z ilością punktów za dane zadanie - jest ""Opis zadania""",Opis zadania
+,11,"brak opisu przycisku ""Status połączenia""",
+,12,hasło musi składać się z co najmniej 20 znaków - zbyt duża ilość znaków,min. 8
+,13,konto musi zostać zablokowane po 3 krotnym wpisaniu błędnego hasła lub jego części - bez lub jego części,
+,"8,1",Tryby różnią się możliwością raportowania defektów. W trybie członka drużyny możliwość ta jest zablokowana / a postępu użytkownika w przypadku awarii) oraz wysyłany jest raport defektu do części serwerowej aplikacji. Funkcja ta jest dostępna we wszystkich trybach pracy aplikacji.  - która jest prawdziwe,W trybie członka drużyny raportowanie zablokowane
+,"7, 11","Dane z części klienckiej dostarczane są do części serwerowej w postaci pliku tekstowego/Po wciśnięciu przycisku “Zakończ” wszystkie dane dotyczące
+użytkownika oraz rozwiązanych przez niego zadań testowych eksportowane do pliku binarnego.",tekstowy
+,9,"Brak szczegółowego opisu procesu raportowania defektów przez zawodników, przez co niemożliwe jest zaplanowanie funkcjonalności automatycznej oceny zadań przesłanych przez zawodników",
+,13,w ciągu roku średnia ilość awarii (rozumianych jako ilość niespodziewanych wyłączeń aplikacji wymagających skorzystania z kopii zapasowej) w jednym dniu nie może być większa niż 1,
+,10,„defekty normalne (od 3 do 4 pkt) • defekty krytyczne (od 4 do 6 pkt)” – czy defekt normalny powinien nakładać się na defekt krytyczny? ,krytyczny(5-6)
+,10,Aby uniknąć pomyłek użytkownik musi potwierdzić chęć wykonania tej czynności. Po wciśnięciu przycisku “Zakończ” {to ten przycisk ma się pojawić jako potwierdzenie wykonania czynności?},
+,10,Nawigacja pionowa boczna aplikacji znajduje się po prawej stronie okna aplikacji.,
+,13,przełączanie pomiędzy zadaniami nie może być dłuższe niż 1 sekunda - to jest wymaganie wyadjnościowe a nie nieezawodności ,
+,7,brak okreslenia wymagajacej wersji srodowiska 32/64 bit,32
+,10,"Wysyłanie raportu defektu do części serwerowej po każdorazowym kliknięciu przycisku ""zaraportuj defekt"". W tym momencie pracy użytkownik nie wypełnił jeszcze raportu defektu, nie ma więc treści do wysłania",
+,10,"""Przycisk Zaraportuj defekt. [...] ta jest dostępna we wszystkich trybach pracy aplikacji."" - Nieścisłość, funkja jest niedostępna w trybie członka drużyny",niedostępna w trybie członka drużyny
+,10,"Przyciski nawigacyjne - “Następne” i “Poprzednie” umożliwiają przeniesienie
+się do odpowiednio bieżącego, następnego i poprzedniego zadania. - 2 przyciski, 3 funkcjonalnosci","bez ""bieżące"""
+,10,Pole “Nr zadania” - podaje numer zadania wyświetlonego w oknie “Zadania”. Zasady numeracji zadań są opisane poniżej.  - nieznalazłem tego opisu tej numeracji,
+,8,w aplikacji ma być nie mniej niż 15 zadań a w schemacie na liście jest miejsce tylko na 12 zadań,15
+,13,8,W przypadku utraty połączenia sieciowego użytkownik powinien mieć dalszą możliwość wykonywania wszystkich czynności w aplikacji.
+,9,Kolejność zadań wyświetlanych w części klienckiej powinna być losowa  --  a konkurencja drużynowa?? bardziej usprecyzować,
+,9,"Przycisk ""Zakończ"" w aplikacji klienckiej opisano jako zakończenie pracy nad wszystkimi zadaniami i wysłanie odpowiedzi do oceny. Jest to nieścisłość, punkt wyżej sugeruje wysyłanie raportów każdorazowo po rozwiązaniu zadania",każdorazowo
+,8,Aplikacja nie może utracić danych w przypadku niespodziewanego jej zamknięcia - jaka powinna być procedura,
+,12,wielkość pliku z kopią zapasową aplikacji klienckiej nie może przekraczać 2MB1,2MB
